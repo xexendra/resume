@@ -66,6 +66,16 @@ header {
     background-color: rgb(243, 240, 240);
 }
 
+.avatar {
+    margin: 20px auto;
+    padding: 0;
+    border: 1px solid rgb(195, 195, 195);
+    width: 230px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px 0 grey;
+}
+
 .skills {
     margin: 0;
     padding: 0;
@@ -73,9 +83,13 @@ header {
 
 .left-part h2 {
     text-align: center;
-    margin: 20px auto 15px;
+    margin: 50px auto 15px;
     font-size: 20px;
     font-weight: 600;
+}
+
+.left-part .skill-title {
+    margin-top: 20px;
 }
 
 .skills dt {
@@ -94,6 +108,7 @@ header {
     font-size: 0;
     border: 1px solid #395c3d;
     background-color: white;
+    box-shadow: 2px 2px 4px 0 grey;
 }
 .skills div {
     height: 100%;
@@ -128,6 +143,7 @@ header {
   width: 250px;
   margin: auto;
   overflow: hidden;
+  box-shadow: 1px 1px 3px gray;
 }
 
 .slider-slides {
@@ -154,7 +170,7 @@ header {
   border: 2px solid white;
   border-radius: 50%;
   background-color: #cccccc;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
   cursor: pointer;
   transition: background-color 0.2s;
 }
@@ -176,6 +192,11 @@ header {
 
 #btn-3:checked ~ .slider-inner .slider-slides {
   transform: translate(-500px);
+}
+
+/*Заплатные ожидания*/
+.another-info p{
+    margin: 25px;
 }
 
 /*Блок с обращением*/
@@ -208,14 +229,18 @@ header {
     margin-bottom: 30px;
 }
 
-.avatar {
-    margin: 0 0 0 20px;
+.right-part ul {
+    margin: 0;
     padding: 0;
-    float: right;
-    border: 1px solid rgb(195, 195, 195);
-    width: 150px;
-    height: 150px;
-    background-color: rgb(255, 255, 255);
+    padding-left: 18px;
+}
+
+.right-part ul .soft-skills {
+    background-color: rgb(246, 241, 245);
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid rgba(182, 157, 124, 0.904);
+    box-shadow: 3px 3px 8px 0 grey;
 }
 
 /*Подвал с котом*/
