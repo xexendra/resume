@@ -71,9 +71,13 @@ header {
     padding: 0;
     border: 1px solid rgb(195, 195, 195);
     width: 230px;
-    height: 230px;
+    height: 312px;
     background-color: rgb(255, 255, 255);
     box-shadow: 3px 3px 5px 0 grey;
+}
+
+.avatar img {
+    margin: 10px;
 }
 
 .skills {
@@ -83,13 +87,9 @@ header {
 
 .left-part h2 {
     text-align: center;
-    margin: 50px auto 15px;
+    margin: 30px auto 10px;
     font-size: 20px;
     font-weight: 600;
-}
-
-.left-part .skill-title {
-    margin-top: 20px;
 }
 
 .skills dt {
@@ -196,7 +196,7 @@ header {
 
 /*Заплатные ожидания*/
 .another-info p{
-    margin: 25px;
+    margin: 0 25px;
 }
 
 /*Блок с обращением*/
@@ -219,6 +219,11 @@ header {
     margin-top: 20px;
     letter-spacing: 0.1em;
     font-size: 18px;
+}
+
+.right-part h2,
+.right-part h3 {
+    margin-left: 20px;
 }
 
 .right-part p {
@@ -284,7 +289,7 @@ footer {
     right: 30px;
     height: 150px;
     width: 180px;
-    background: url("/image/cat-1.png") no-repeat;
+    background: url("image/cat-1.png") no-repeat;
     background-position: 100% 100%;
     background-size: contain;
     margin: 0;
@@ -295,13 +300,13 @@ footer {
 }
 
 .cat:hover {
-    background: url("/image/cat-2.png") no-repeat;
+    background: url("image/cat-2.png") no-repeat;
     background-position: 100% 100%;
     background-size: contain;
 }
 
 .cat:focus {
-    background: url("/image/cat-3.png") no-repeat;
+    background: url("image/cat-3.png") no-repeat;
     background-position: 100% 100%;
     background-size: contain;
     animation: fly 15s linear;
