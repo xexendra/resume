@@ -316,28 +316,28 @@ footer {
 
 @keyframes fly {
     5% {
-        transform: translate(-750px, -0px) rotate(0deg)
+        transform: translate(-700px, -0px) rotate(0deg)
     }
     10% {
-        transform: translate(-800px, -50px) rotate(45deg)
+        transform: translate(-750px, -50px) rotate(45deg)
     }
     10% {
         opacity: 1;
     }
-    25% {
+    35% {
         transform: translate(-2000px, -5000px) rotate(90deg)
     }
-    30% {
+    40% {
         opacity: 0;
     }
-    60% {
-        transform: translate(400px, -550px) rotate(225deg)
+    80% {
+        transform: translate(180px, -450px) rotate(225deg)
     }
-    75% {
+    82% {
         opacity: 1;
     }
-    80% {
-        transform: translate(380px, -180px) rotate(290deg);
+    86% {
+        transform: translate(180px, -300px) rotate(290deg);
     }
     100% {
         transform: translate(0px, 0px) rotate(360deg)
