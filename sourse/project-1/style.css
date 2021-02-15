@@ -684,11 +684,11 @@ blockquote a:active {
 }
 
 .order-form-phone .order-form-group:first-child {
-    margin-right: 50px;
+    margin-right: 42px;
 }
 
 .order-form .order-form-group select {
-    width: 630px;
+    width: 638px;
     height: 50px;
     padding-left: 15px;
     font-family: Arial, sans-serif;
